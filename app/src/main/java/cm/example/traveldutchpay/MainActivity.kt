@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
             val n = tt1.text.toString().toIntOrNull()?:0
             var sum = a1+a2+a3+a4+a5+a6+a7+a8+a9+a10+a11+a12+a13+a14+a15+a16+a17+a18+a19+a20+a21
             if (n==0) {
-                result.text = "잘못된 계산입니다."
+                result.text = "잘못된 계산입니다"
                 tt1.text= null
                 val n = tt1.text.toString().toIntOrNull()?:0
             } else {
@@ -114,9 +114,9 @@ class MainActivity : AppCompatActivity() {
 
 
                 when (nu) {
-                    0 -> result.text = "다른 값을 입력해주세요."
-                    100 -> result.text = "잘못된 계산입니다."
-                    else -> result.text = "한 명당 ${nus}원 입니다."
+                    0 -> result.text = "다른 값을 입력해주세요"
+                    100 -> result.text = "잘못된 계산입니다"
+                    else -> result.text = "한 명당 ${nus}원 입니다"
                 }
             }
             saveData(a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,n,result.text.toString())

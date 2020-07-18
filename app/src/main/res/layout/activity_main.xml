@@ -5,7 +5,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/피치퍼프"
+    android:background="#8DFFD180"
     tools:context="cm.example.traveldutchpay.MainActivity">
 
     <EditText
@@ -402,9 +402,9 @@
         android:layout_width="147dp"
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
-        android:background="@android:color/holo_green_dark"
         android:fontFamily="sans-serif"
         android:text="모두 지우기"
+        android:textColor="#ffffff"
         android:textSize="16sp"
         android:typeface="sans"
         app:layout_constraintEnd_toStartOf="@+id/tt1"
@@ -425,13 +425,13 @@
     <Button
         android:id="@+id/letGo"
         android:layout_width="0dp"
-        android:layout_height="54dp"
+        android:layout_height="55dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
-        android:background="#8EC190"
         android:text="결과보기"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.526"
