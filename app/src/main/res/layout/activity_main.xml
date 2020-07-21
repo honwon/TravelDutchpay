@@ -314,8 +314,8 @@
     <EditText
         android:id="@+id/t1"
         android:layout_width="115dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="금액"
         android:imeOptions="actionDone"
@@ -332,8 +332,8 @@
     <EditText
         android:id="@+id/t2"
         android:layout_width="115dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="금액"
         android:imeOptions="actionDone"
@@ -350,8 +350,8 @@
     <EditText
         android:id="@+id/t3"
         android:layout_width="115dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="금액"
         android:imeOptions="actionDone"
